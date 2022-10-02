@@ -40,7 +40,7 @@ public class Main {
 
         int peoplePlaces = 102;
         int railWay = 60;
-        int peopleSits = 36;
+        int peopleSits = 62;
         int peopleStand = 15;
         int stand = peoplePlaces - railWay;
         int freeSits = railWay - peopleSits;
@@ -73,7 +73,7 @@ public class Main {
         int age5 = 41;
         int schoolAge1 = 7;
 
-        if (age5 >= schoolAge1 && age5<18 ) {
+        if (age5 >= schoolAge1 && age5 < 18) {
             System.out.println("Пора идти в школу, получать образование");
         } else {
             if (age5 >= 18 && age5 < 24) {
@@ -81,7 +81,19 @@ public class Main {
             } else {
                 System.out.println("Пора искать работу! ");
             }
-            }
         }
+        //Задача 6
+        System.out.println("Задача 6");
 
+        if (peopleSits <= railWay) {
+            System.out.println("В вагоне поезда занято " + peopleSits + " мест, свободно " + freeSits + " седящих мест");
+        } else if (peopleStand <= stand) {
+            System.out.println("В вагоне поезда занято " + peopleStand + " мест, свободно " + freeStand + " стоячих мест");
+        }
+        if (allPeople <= peoplePlaces) {
+            System.out.println("В вагоне поезда занято " + allPeople + " место, свободно всего " + freeAll + " место");
+        }
     }
+}
+
+
