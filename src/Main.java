@@ -64,12 +64,24 @@ public class Main {
         int age3 = 14;
         if (age3 >= 18) {
             System.out.println("Ура ! Тебе " + age3 + " Поздравляю! ");
-        }
-        else {
+        } else {
             System.out.println("Упс ! Тебе " + age3 + " надо еще подождать ");
+        }
+        //Задача 5
+        System.out.println("Задача 5");
+
+        int age5 = 41;
+        int schoolAge1 = 7;
+
+        if (age5 >= schoolAge1 && age5<18 ) {
+            System.out.println("Пора идти в школу, получать образование");
+        } else {
+            if (age5 >= 18 && age5 < 24) {
+                System.out.println("Пора в универ! ");
+            } else {
+                System.out.println("Пора искать работу! ");
             }
-
-
+            }
+        }
 
     }
-}
