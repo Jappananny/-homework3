@@ -93,6 +93,20 @@ public class Main {
         if (allPeople <= peoplePlaces) {
             System.out.println("В вагоне поезда занято " + allPeople + " место, свободно всего " + freeAll + " место");
         }
+        //Задача 7
+        System.out.println("Задача 7");
+
+        int age6 = 34;
+        if (age6 >= 2 && age6 <= 6) {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в садик");
+        } else if (age6>=7 && age6 <=18){
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в школу");
+        } else if (age6>=18&&age6<=24){
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить в университет");
+        } else {
+            System.out.println("Если возраст человека равен " + age6 + ", то ему нужно ходить на работу");
+        }
+
     }
 }
 
