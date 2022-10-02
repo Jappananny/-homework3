@@ -58,6 +58,18 @@ public class Main {
         if (allPeople <= peoplePlaces) {
             System.out.println("В вагоне поезда занято " + allPeople + " место, свободно всего " + freeAll + " место");
         }
+        //Задача 4
+        System.out.println("Задача 4");
+
+        int age3 = 14;
+        if (age3 >= 18) {
+            System.out.println("Ура ! Тебе " + age3 + " Поздравляю! ");
+        }
+        else {
+            System.out.println("Упс ! Тебе " + age3 + " надо еще подождать ");
+            }
+
+
 
     }
 }
