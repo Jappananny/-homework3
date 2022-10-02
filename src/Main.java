@@ -117,7 +117,31 @@ public class Main {
         } else {
             System.out.println("Если возраст " + age7 + " может кататься без сопровоздения взрослого");
         }
+        //Задача 9
+        System.out.println("Задача 9");
 
+        int one = 22222;
+        int two = -34;
+        int free = 12345;
+        if (one > two) {
+            if (one >= free) {
+                System.out.println("Максимальное число " + one);
+            } else {
+                System.out.println("Максимальное число " + free);
+            }
+        } else if (two > one) {
+            if (two >= free) {
+                System.out.println("Максимальное число " + two);
+            } else {
+                System.out.println("Максимальное число " + free);
+            }
+        } else if (one > free) {
+            if (free >= one) {
+                System.out.println("Максимальное число " + one);
+            } else {
+                System.out.println("Максимальное число " + free);
+            }
+        }
     }
 }
 
